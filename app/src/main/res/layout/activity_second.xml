@@ -14,12 +14,13 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="411dp"
+        <ListView
+            android:layout_width="380dp"
             android:layout_height="match_parent"
-            android:id="@+id/textview"
-            android:text="Akshay"
-            android:textSize="20dp"></TextView>
+            android:id="@+id/listview1"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

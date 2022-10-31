@@ -6,6 +6,10 @@ plugins {
 android {
     compileSdk 32
 
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
     defaultConfig {
         applicationId "com.example.byteseq"
         minSdk 21
