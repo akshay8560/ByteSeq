@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="411dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textview"
+            android:text="Akshay"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fatchdata"
+            android:layout_width="150dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:background="@drawable/black_border_capsule2"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+
+            android:text="@string/fetch_data"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/Logout"
+            android:layout_width="130dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/black_border_capsule2"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+
+            android:text="@string/log_out"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
+</RelativeLayout>
